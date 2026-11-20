@@ -26,7 +26,7 @@ macOS 自带的「防止睡眠」要么藏在命令行（`caffeinate`），要�
 需要 macOS 11+ 和 Xcode Command Line Tools（`xcode-select --install`）。
 
 ```bash
-git clone https://github.com/<你的用户名>/keep-awake-mac.git
+git clone https://github.com/Jax-97/keep-awake-mac.git
 cd keep-awake-mac
 ./build.sh                 # 生成 电脑不休眠.app
 mv 电脑不休眠.app ~/Desktop/
