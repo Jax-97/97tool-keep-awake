@@ -1,6 +1,8 @@
 # 电脑不休眠 · Keep Awake for macOS
 
-一个双击就用的 macOS 电源小工具：**不让电脑睡、屏幕常亮、立刻熄屏、合盖继续跑**。原生 Swift/AppKit 单文件实现，无第三方依赖、无后台常驻服务、关掉即恢复系统原样。
+> 作者：[九七](https://github.com/Jax-97) · 一个双击就用的 macOS 电源小工具
+
+**不让电脑睡、屏幕常亮、立刻熄屏、合盖继续跑**。原生 Swift/AppKit 单文件实现，无第三方依赖、无后台常驻服务、关掉即恢复系统原样。
 
 ![界面截图](assets/screenshot.png)
 
@@ -26,8 +28,8 @@ macOS 自带的「防止睡眠」要么藏在命令行（`caffeinate`），要�
 需要 macOS 11+ 和 Xcode Command Line Tools（`xcode-select --install`）。
 
 ```bash
-git clone https://github.com/Jax-97/keep-awake-mac.git
-cd keep-awake-mac
+git clone https://github.com/Jax-97/jiuqi-keep-awake.git
+cd jiuqi-keep-awake
 ./build.sh                 # 生成 电脑不休眠.app
 mv 电脑不休眠.app ~/Desktop/
 ```
